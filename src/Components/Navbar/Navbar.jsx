@@ -38,14 +38,16 @@ const navItems = [
 const Navbar = () => {
 
     const [open , setOpen] = useState(false) ;
-    const Links =   navItems.map(route => <li key={route.path} className='mr-10'><a href={route.path}>{route.name}</a></li> ) ;
+    const Links =   navItems.map(route => <li key={route.path} className='hover:bg-amber-400 lg:mr-10 px-4 '><a href={route.path}>{route.name}</a></li> ) ;
 
     return (
         
-       <nav className='flex justify-between mx-10'>
+       <nav className='flex justify-between mx-10 mt-4 '>
         <span className='flex gap-4' onClick={()=> setOpen(!open)}>
             {open? <X className='md:hidden'></X> : <Menu className='md:hidden'></Menu>}
-            <ul className='md:hidden'>
+
+            <ul className={`md:hidden absolute duration-1000 text-black
+                ${open? 'top-8': '-top-40'} bg-amber-100`}>
                 {Links}
             </ul>
             

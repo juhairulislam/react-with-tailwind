@@ -1,0 +1,58 @@
+{
+  "pricingPlans": [
+    {
+      "id": "plan-001",
+      "name": "Basic",
+      "price": 19,
+      "duration": "month",
+      "purpose": "Simple access for individuals starting their fitness journey",
+      "recommended": false,
+      "features": [
+        "Access to gym equipment",
+        "Locker room access",
+        "Open gym hours (6am–10pm)",
+        "1 fitness assessment",
+        "Access to mobile app",
+        "Water station access"
+      ]
+    },
+    {
+      "id": "plan-002",
+      "name": "Pro",
+      "price": 39,
+      "duration": "month",
+      "purpose": "Most popular plan for consistent progress with guidance",
+      "recommended": true,
+      "features": [
+        "Everything in Basic",
+        "Group classes (up to 12/month)",
+        "2 personal training sessions/month",
+        "Basic diet guidance",
+        "Progress tracking",
+        "Workout plan templates",
+        "Priority booking for classes",
+        "Monthly fitness report"
+      ]
+    },
+    {
+      "id": "plan-003",
+      "name": "Elite",
+      "price": 69,
+      "duration": "month",
+      "purpose": "Full-service training with maximum flexibility and results",
+      "recommended": false,
+      "features": [
+        "Everything in Pro",
+        "Unlimited group classes",
+        "Unlimited personal training",
+        "24/7 gym access",
+        "Custom workout & nutrition plan",
+        "1-on-1 coaching support (chat/call)",
+        "Recovery zone access (sauna/massage)",
+        "Guest pass (2 per month)",
+        "Exclusive workshops & events",
+        "Priority support"
+      ]
+    }
+  ]
+}
