@@ -3,7 +3,7 @@
     {
       "id": "plan-001",
       "name": "Basic",
-      "price": 19,
+      "price":19,
       "duration": "month",
       "purpose": "Simple access for individuals starting their fitness journey",
       "recommended": false,
