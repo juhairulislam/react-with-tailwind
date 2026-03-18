@@ -3,7 +3,8 @@
     {
       "id": "plan-001",
       "name": "Basic",
-      "price":19,
+      "popular":true,
+      "price":"$29.99/month",
       "duration": "month",
       "purpose": "Simple access for individuals starting their fitness journey",
       "recommended": false,
@@ -19,7 +20,7 @@
     {
       "id": "plan-002",
       "name": "Pro",
-      "price": 39,
+      "price": "$49.99/month",
       "duration": "month",
       "purpose": "Most popular plan for consistent progress with guidance",
       "recommended": true,
@@ -37,7 +38,8 @@
     {
       "id": "plan-003",
       "name": "Elite",
-      "price": 69,
+      "price": "$99.99/month",
+      
       "duration": "month",
       "purpose": "Full-service training with maximum flexibility and results",
       "recommended": false,
