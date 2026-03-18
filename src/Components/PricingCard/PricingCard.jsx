@@ -2,9 +2,9 @@ import React from 'react';
 import PricingFeatures from './PricingFeatures';
 
 const PricingCard = ({pricing}) => {
-    console.log(pricing)
+    // console.log(pricing)
     return (
-        <div className='shadow-2xl border border-green-200-2 rounded-xl te p-5 flex flex-col '>
+        <div className='flex flex-col '>
             {/* card header */}
             <div>
                 <h1 className='text-5xl'>{pricing.name}</h1>

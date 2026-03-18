@@ -1,0 +1,72 @@
+[
+  {
+    "id": "std-001",
+    "name": "Rahim",
+    "marks": { "math": 85, "physics": 78, "english": 82 },
+    "total": 245,
+    "grade": "A"
+  },
+  {
+    "id": "std-002",
+    "name": "Karim",
+    "marks": { "math": 65, "physics": 70, "english": 68 },
+    "total": 203,
+    "grade": "B"
+  },
+  {
+    "id": "std-003",
+    "name": "Ayesha",
+    "marks": { "math": 92, "physics": 88, "english": 90 },
+    "total": 270,
+    "grade": "A+"
+  },
+  {
+    "id": "std-004",
+    "name": "Fatema",
+    "marks": { "math": 74, "physics": 69, "english": 72 },
+    "total": 215,
+    "grade": "B"
+  },
+  {
+    "id": "std-005",
+    "name": "Hasan",
+    "marks": { "math": 55, "physics": 60, "english": 58 },
+    "total": 173,
+    "grade": "C"
+  },
+  {
+    "id": "std-006",
+    "name": "Nusrat",
+    "marks": { "math": 88, "physics": 91, "english": 86 },
+    "total": 265,
+    "grade": "A+"
+  },
+  {
+    "id": "std-007",
+    "name": "Sabbir",
+    "marks": { "math": 72, "physics": 75, "english": 70 },
+    "total": 217,
+    "grade": "B"
+  },
+  {
+    "id": "std-008",
+    "name": "Mim",
+    "marks": { "math": 95, "physics": 93, "english": 94 },
+    "total": 282,
+    "grade": "A+"
+  },
+  {
+    "id": "std-009",
+    "name": "Arif",
+    "marks": { "math": 60, "physics": 58, "english": 62 },
+    "total": 180,
+    "grade": "C"
+  },
+  {
+    "id": "std-010",
+    "name": "Jannat",
+    "marks": { "math": 80, "physics": 84, "english": 79 },
+    "total": 243,
+    "grade": "A"
+  }
+]
