@@ -31,7 +31,7 @@ const MarksChart = ({marksPromise}) => {
         >
             <XAxis dataKey={'name'}></XAxis> 
             <YAxis></YAxis>
-            <Bar dataKey={'avg'} fill=''></Bar>
+            <Bar dataKey={'avg'} fill='yellow'></Bar>
             <Bar dataKey={'physics'} fill='blue'></Bar>
         </BarChart>
             
