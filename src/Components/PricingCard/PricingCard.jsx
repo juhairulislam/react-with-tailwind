@@ -13,7 +13,7 @@ const PricingCard = ({pricing}) => {
             </div>
 
             {/* card body */}
-            <div className='mt-5 bg-gray-700 rounded-2xl mt-10 p-4'>
+            <div className='mt-4 bg-gray-700 rounded-2xl mt-10 p-4'>
                 <p className='font-bold '>{pricing.purpose}</p>
                 {
                     pricing.features.map( (feature,index) => <PricingFeatures key={index} feature={feature}></PricingFeatures>)
